@@ -19,7 +19,7 @@ app.post("/submit", async (req,res)=>{
     res.json({
         message:"submission recieved"
     })
-  } catch (e) {
+  } catch (e) { 
     res.json({
         message:"submission failed"
     })
